@@ -11,7 +11,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("mainView.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 650, 450);
-        stage.setTitle("Shopping");
+        stage.setTitle("Daniel Juntunen");
         stage.setScene(scene);
         stage.show();
     }
