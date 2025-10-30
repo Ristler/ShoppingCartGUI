@@ -94,7 +94,6 @@ public class CalculatorController {
                 System.out.println("Cant add anymore items! its full");
                 totalSumLabel.setText(resourceBundle.getString("totalCost") + " " + calculate(cart));
 
-
             }
         }
     }
